@@ -21,6 +21,6 @@
 
 * [ссылка](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=62863%3A870&t=aQKehoGShZhOXifz-0) на макет в Figma
 ---------------------------------------------------------------------
-* [ссылка]() на выполненный проект
+* [ссылка](https://oksanaz2608.github.io/russian-travel-oks.z/index.html) на выполненный проект
 
 Приятного просмотра!
