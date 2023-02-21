@@ -11,15 +11,13 @@
 
 <body class="page">
     <header class="header">
-        <a class="header__logo" href="#" title="Россия">
-            <img class="header__logo-pic" src="./images/header__logo-pic.svg" alt="логотип">
-        </a>
+        <img class="header__logo" src="./images/header__logo-pic.svg" alt="логотип">
         <ul class="header__lang-list">
             <li class="header__lang-item">
-                <a class="header__lang-link header__lang-link_active" title="Переключить на Русский язык">Ru</a>
+                <a class="link header__lang-link header__lang-link_active" title="Переключить на Русский язык">Ru</a>
             </li>
             <li class="header__lang-item">
-                <a class="header__lang-link" href="#" title="Switch to the English version of the site">En</a>
+                <a class="link header__lang-link" href="#" title="Switch to the English version of the site">En</a>
             </li>
         </ul>
     </header>
@@ -84,7 +82,7 @@
                 <h2 class="place__title">Куршская коса</h2>
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
-                    <a class="place__link" href="http://park-kosa.ru" target="_blank"
+                    <a class="link place__link" href="http://park-kosa.ru" target="_blank"
                         title="Куршская коса">park-kosa.ru</a>
                 </div>
                 <img class="place__image" src="./images/kurshskaya-kosa.jpeg" alt="Куршская коса">
@@ -103,7 +101,7 @@
                 <h2 class="place__title">Кольский</h2>
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
-                    <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                    <a class="link place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                         target="_blank" title="Кольский">National Geographic</a>
                 </div>
                 <img class="place__image" src="./images/kolskiy.jpeg" alt="Кольский">
@@ -123,7 +121,7 @@
                 <h2 class="place__title">Алтай</h2>
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
-                    <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank"
+                    <a class="link place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank"
                         title="Алтай">YouTube
                     </a>
                 </div>
@@ -142,7 +140,7 @@
                 <h2 class="place__title">Зимний Байкал</h2>
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
-                    <a class="place__link" href="https://vk.com/baikalmile" target="_blank"
+                    <a class="link place__link" href="https://vk.com/baikalmile" target="_blank"
                         title="Зимний Байкал">https://vk.com/baikalmile</a>
                 </div>
                 <img class="place__image" src="./images/baykal.jpeg" alt="Зимний Байкал">
@@ -160,7 +158,7 @@
                 <h2 class="place__title">Карелия</h2>
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
-                    <a class="place__link" href="http://vodlozero.ru" target="_blank"
+                    <a class="link place__link" href="http://vodlozero.ru" target="_blank"
                         title="Карелия">http://vodlozero.ru/</a>
                 </div>
                 <img class="place__image" src="./images/kareliya.jpeg" alt="Карелия">
@@ -176,30 +174,33 @@
             </article>
         </section>
         <section class="cover">
-            <a class="cover__content" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-                <h2 class="cover__title">До Байкала «на собаках»</h2>
-                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-                    электричках.</p>
+            <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+                <div class="cover__content">
+                    <h2 class="cover__title">До Байкала «на собаках»</h2>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
+                        на
+                        электричках.</p>
+                </div>
             </a>
         </section>
     </main>
     <footer class="footer">
         <nav>
             <ul class="footer__links">
-                <li class="footer__link-item">
-                    <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+                <li>
+                    <a class="link footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
                 </li>
-                <li class="footer__link-item">
-                    <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+                <li>
+                    <a class="link footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
                 </li>
-                <li class="footer__link-item">
-                    <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+                <li>
+                    <a class="link footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
                 </li>
-                <li class="footer__link-item">
-                    <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+                <li>
+                    <a class="link footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
                 </li>
-                <li class="footer__link-item">
-                    <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+                <li>
+                    <a class="link footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
                 </li>
             </ul>
         </nav>
