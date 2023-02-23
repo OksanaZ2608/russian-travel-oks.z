@@ -1,8 +1,5 @@
 .place__text {
     display: flex;
     flex-direction: column;
-    justify-items: start;
-    align-items: start;
-    margin-bottom: 0;
     gap: 26px;
 }
